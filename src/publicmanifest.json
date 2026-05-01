@@ -1,0 +1,8 @@
+{
+  "name": "Cairene Voice Studio",
+  "short_name": "Cairene",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f0f0f",
+  "theme_color": "#FFD700"
+}
