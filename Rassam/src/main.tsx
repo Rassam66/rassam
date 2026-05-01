@@ -1,16 +1,10 @@
-src/
-  ├── App.tsx
-  ├── index.css
-  ├── main.tsx
-  ├── lib/
-  │    └── gemini.ts
-  ├── hooks/
-  │    ├── useAudioPlayer.ts
-  │    └── useTextToSpeech.ts
-  ├── components/
-  │    ├── VoiceSelector.tsx
-  │    ├── EmotionToggle.tsx
-  │    ├── SpeedPitchControls.tsx
-  │    └── AudioControls.tsx
-  └── types/
-       └── index.ts
+import { StrictMode } from 'react';
+import { createRoot } from 'react-dom/client';
+import App from './App.tsx';
+import './index.css';
+
+createRoot(document.getElementById('root')!).render(
+  <StrictMode>
+    <App />
+  </StrictMode>
+);
