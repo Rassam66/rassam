@@ -1,7 +1,7 @@
 src/
   ├── App.tsx
-  ├── main.tsx
   ├── index.css
+  ├── main.tsx
   ├── lib/
   │    └── gemini.ts
   ├── hooks/
